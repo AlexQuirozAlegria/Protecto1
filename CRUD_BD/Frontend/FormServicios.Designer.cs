@@ -44,7 +44,7 @@ namespace CRUD_BD
             // 
             // btnLimpiar
             // 
-            btnLimpiar.Location = new Point(675, 263);
+            btnLimpiar.Location = new Point(712, 263);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(94, 29);
             btnLimpiar.TabIndex = 37;
@@ -54,7 +54,7 @@ namespace CRUD_BD
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(675, 193);
+            btnEliminar.Location = new Point(712, 193);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(94, 29);
             btnEliminar.TabIndex = 36;
@@ -64,7 +64,7 @@ namespace CRUD_BD
             // 
             // btnModificar
             // 
-            btnModificar.Location = new Point(675, 228);
+            btnModificar.Location = new Point(712, 228);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(94, 29);
             btnModificar.TabIndex = 35;
@@ -74,7 +74,7 @@ namespace CRUD_BD
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(675, 158);
+            btnGuardar.Location = new Point(712, 158);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(94, 29);
             btnGuardar.TabIndex = 33;
@@ -112,7 +112,7 @@ namespace CRUD_BD
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(344, 23);
+            label3.Location = new Point(392, 17);
             label3.Name = "label3";
             label3.Size = new Size(90, 20);
             label3.TabIndex = 23;
@@ -120,7 +120,7 @@ namespace CRUD_BD
             // 
             // txtDescripcion
             // 
-            txtDescripcion.Location = new Point(440, 23);
+            txtDescripcion.Location = new Point(488, 17);
             txtDescripcion.Multiline = true;
             txtDescripcion.Name = "txtDescripcion";
             txtDescripcion.Size = new Size(329, 124);
@@ -164,7 +164,7 @@ namespace CRUD_BD
             dgvServicios.Location = new Point(12, 158);
             dgvServicios.Name = "dgvServicios";
             dgvServicios.RowHeadersWidth = 51;
-            dgvServicios.Size = new Size(644, 280);
+            dgvServicios.Size = new Size(679, 280);
             dgvServicios.TabIndex = 38;
             dgvServicios.CellClick += dgvServicios_CellClick;
             // 
@@ -179,7 +179,7 @@ namespace CRUD_BD
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(829, 450);
             Controls.Add(dgvServicios);
             Controls.Add(btnLimpiar);
             Controls.Add(btnEliminar);

@@ -56,7 +56,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(32, 31);
+            label1.Location = new Point(27, 26);
             label1.Name = "label1";
             label1.Size = new Size(130, 20);
             label1.TabIndex = 0;
@@ -64,7 +64,7 @@
             // 
             // txtCodigo
             // 
-            txtCodigo.Location = new Point(168, 28);
+            txtCodigo.Location = new Point(163, 23);
             txtCodigo.Name = "txtCodigo";
             txtCodigo.Size = new Size(228, 27);
             txtCodigo.TabIndex = 1;
@@ -72,7 +72,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(95, 66);
+            label2.Location = new Point(90, 61);
             label2.Name = "label2";
             label2.Size = new Size(67, 20);
             label2.TabIndex = 2;
@@ -80,7 +80,7 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(168, 66);
+            txtNombre.Location = new Point(163, 61);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(228, 27);
             txtNombre.TabIndex = 3;
@@ -88,7 +88,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(444, 66);
+            label3.Location = new Point(504, 71);
             label3.Name = "label3";
             label3.Size = new Size(53, 20);
             label3.TabIndex = 4;
@@ -96,15 +96,15 @@
             // 
             // txtMarca
             // 
-            txtMarca.Location = new Point(514, 75);
+            txtMarca.Location = new Point(566, 68);
             txtMarca.Name = "txtMarca";
-            txtMarca.Size = new Size(232, 27);
+            txtMarca.Size = new Size(210, 27);
             txtMarca.TabIndex = 5;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(427, 35);
+            label4.Location = new Point(480, 32);
             label4.Name = "label4";
             label4.Size = new Size(80, 20);
             label4.TabIndex = 6;
@@ -112,15 +112,15 @@
             // 
             // txtProveedor
             // 
-            txtProveedor.Location = new Point(514, 32);
+            txtProveedor.Location = new Point(566, 25);
             txtProveedor.Name = "txtProveedor";
-            txtProveedor.Size = new Size(232, 27);
+            txtProveedor.Size = new Size(210, 27);
             txtProveedor.TabIndex = 7;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(109, 109);
+            label5.Location = new Point(104, 104);
             label5.Name = "label5";
             label5.Size = new Size(53, 20);
             label5.TabIndex = 8;
@@ -129,7 +129,7 @@
             // numPrecio
             // 
             numPrecio.DecimalPlaces = 2;
-            numPrecio.Location = new Point(168, 107);
+            numPrecio.Location = new Point(163, 102);
             numPrecio.Name = "numPrecio";
             numPrecio.Size = new Size(228, 27);
             numPrecio.TabIndex = 9;
@@ -137,7 +137,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(39, 149);
+            label6.Location = new Point(34, 144);
             label6.Name = "label6";
             label6.Size = new Size(123, 20);
             label6.TabIndex = 10;
@@ -145,7 +145,7 @@
             // 
             // numStockActual
             // 
-            numStockActual.Location = new Point(168, 145);
+            numStockActual.Location = new Point(163, 140);
             numStockActual.Name = "numStockActual";
             numStockActual.Size = new Size(228, 27);
             numStockActual.TabIndex = 11;
@@ -153,7 +153,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(59, 186);
+            label7.Location = new Point(457, 107);
             label7.Name = "label7";
             label7.Size = new Size(103, 20);
             label7.TabIndex = 12;
@@ -161,14 +161,14 @@
             // 
             // numStockMinimo
             // 
-            numStockMinimo.Location = new Point(168, 186);
+            numStockMinimo.Location = new Point(566, 107);
             numStockMinimo.Name = "numStockMinimo";
-            numStockMinimo.Size = new Size(228, 27);
+            numStockMinimo.Size = new Size(210, 27);
             numStockMinimo.TabIndex = 13;
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(444, 129);
+            btnGuardar.Location = new Point(818, 138);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(94, 29);
             btnGuardar.TabIndex = 14;
@@ -179,16 +179,16 @@
             // dgvRefacciones
             // 
             dgvRefacciones.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvRefacciones.Location = new Point(32, 230);
+            dgvRefacciones.Location = new Point(12, 190);
             dgvRefacciones.Name = "dgvRefacciones";
             dgvRefacciones.RowHeadersWidth = 51;
-            dgvRefacciones.Size = new Size(756, 212);
+            dgvRefacciones.Size = new Size(950, 305);
             dgvRefacciones.TabIndex = 15;
             dgvRefacciones.CellClick += dgvRefacciones_CellClick;
             // 
             // btnModificar
             // 
-            btnModificar.Location = new Point(598, 129);
+            btnModificar.Location = new Point(818, 23);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(94, 29);
             btnModificar.TabIndex = 16;
@@ -198,7 +198,7 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(444, 177);
+            btnEliminar.Location = new Point(818, 101);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(94, 29);
             btnEliminar.TabIndex = 17;
@@ -208,7 +208,7 @@
             // 
             // btnLimpiar
             // 
-            btnLimpiar.Location = new Point(598, 177);
+            btnLimpiar.Location = new Point(818, 61);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(94, 29);
             btnLimpiar.TabIndex = 18;
@@ -220,7 +220,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(974, 507);
             Controls.Add(btnLimpiar);
             Controls.Add(btnEliminar);
             Controls.Add(btnModificar);
@@ -242,6 +242,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)numPrecio).EndInit();
             ((System.ComponentModel.ISupportInitialize)numStockActual).EndInit();
             ((System.ComponentModel.ISupportInitialize)numStockMinimo).EndInit();

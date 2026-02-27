@@ -35,9 +35,9 @@
             // 
             // btnServicios
             // 
-            btnServicios.Location = new Point(48, 102);
+            btnServicios.Location = new Point(153, 89);
             btnServicios.Name = "btnServicios";
-            btnServicios.Size = new Size(94, 29);
+            btnServicios.Size = new Size(130, 43);
             btnServicios.TabIndex = 0;
             btnServicios.Text = "Servicios";
             btnServicios.UseVisualStyleBackColor = true;
@@ -45,9 +45,9 @@
             // 
             // btnRefacciones
             // 
-            btnRefacciones.Location = new Point(181, 102);
+            btnRefacciones.Location = new Point(153, 138);
             btnRefacciones.Name = "btnRefacciones";
-            btnRefacciones.Size = new Size(105, 29);
+            btnRefacciones.Size = new Size(130, 43);
             btnRefacciones.TabIndex = 1;
             btnRefacciones.Text = "Refacciones";
             btnRefacciones.UseVisualStyleBackColor = true;
@@ -56,9 +56,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(114, 43);
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(104, 28);
             label1.Name = "label1";
-            label1.Size = new Size(108, 20);
+            label1.Size = new Size(232, 41);
             label1.TabIndex = 2;
             label1.Text = "Menu principal";
             // 
@@ -66,7 +67,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(332, 183);
+            ClientSize = new Size(449, 219);
             Controls.Add(label1);
             Controls.Add(btnRefacciones);
             Controls.Add(btnServicios);

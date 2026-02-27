@@ -13,7 +13,7 @@ namespace CRUD_BD
         public Form1()
         {
             InitializeComponent();
-            CargarTabla(); 
+            CargarTabla();
         }
 
         private void CargarTabla()
@@ -48,7 +48,7 @@ namespace CRUD_BD
             }
 
             Refaccion r = LlenarObjeto();
-            
+
             r.Codigo = codigoSeleccionado;
 
             if (dao.Modificar(r))
@@ -128,6 +128,11 @@ namespace CRUD_BD
             numStockMinimo.Value = 0;
             codigoSeleccionado = "";
             txtCodigo.Enabled = true;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
